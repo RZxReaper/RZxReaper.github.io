@@ -72,7 +72,16 @@ button:active, .btn:active { box-shadow: var(--in); transform: translateY(1px); 
 .list li:first-child { padding-top: 0; }
 .list li:last-child { border: 0; padding-bottom: 0; }
 .list b { color: var(--pink); font-weight: 700; }
-.list b a { color: inherit; }
+/* repo link: a pixel-font command prompt on a bevelled key */
+.repo { grid-column: 1 / -1; justify-self: start; margin-top: .6rem; padding: 7px 10px;
+  font: 400 .55rem var(--pixel); letter-spacing: .05em; color: var(--lime); text-decoration: none;
+  background: #1e1e2b; box-shadow: var(--out); }
+.repo::before { content: "> "; color: var(--pink); }
+.repo::after { content: "_"; visibility: hidden; }
+.repo:hover, .repo:focus-visible { background: var(--lime); color: #111; }
+.repo:hover::before, .repo:focus-visible::before { color: #111; }
+.repo:hover::after, .repo:focus-visible::after { visibility: visible; animation: blink 1s steps(1) infinite; }
+.repo:active { box-shadow: var(--in); transform: translateY(1px); }
 .list span { grid-column: 1 / -1; }
 .steps { margin: 0; padding-left: 1.5rem; }
 .steps li { padding: .3rem 0; }
