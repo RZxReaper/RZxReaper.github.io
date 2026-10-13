@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import Desktop, { Window } from './Desktop.jsx'
 
 const LINKEDIN = 'https://www.linkedin.com/in/aronnya-pal/'
+const GITHUB = 'https://github.com/RZxReaper'
 
 const icons = [
   ['/#home', 'pc', 'Home'],
@@ -23,7 +24,7 @@ export default function Home() {
       <Window id="home" title="aronnya.exe" size="big">
         <h1>Aronnya Pal</h1>
         <p>Computer science student at VIT Vellore. I work across AI/ML, data and design.</p>
-        <p><Link className="btn hot" to="/#projects">Projects</Link> <a className="btn" href={LINKEDIN} rel="noopener">LinkedIn</a></p>
+        <p><Link className="btn hot" to="/#projects">Projects</Link> <a className="btn" href={LINKEDIN} rel="noopener">LinkedIn</a> <a className="btn" href={GITHUB} rel="noopener">GitHub</a></p>
       </Window>
 
       <Window id="about" title="about.txt" i={1}>
@@ -66,7 +67,7 @@ export default function Home() {
 
       <Window id="contact" title="Contact" size="wide" i={5}>
         <p>Open to AI/ML and cybersecurity roles.</p>
-        <p><a className="btn hot" href="mailto:palaronnya@gmail.com">Email</a> <a className="btn" href={LINKEDIN} rel="noopener">LinkedIn</a> <a className="btn" href="https://github.com/RZxReaper" rel="noopener">GitHub</a></p>
+        <p><a className="btn hot" href="mailto:palaronnya@gmail.com">Email</a> <a className="btn" href={LINKEDIN} rel="noopener">LinkedIn</a> <a className="btn" href={GITHUB} rel="noopener">GitHub</a></p>
         <ul className="tags"><li>Python</li><li>C++</li><li>Java</li><li>React</li><li>GCP</li><li>BigQuery</li><li>Tableau</li><li>Figma</li></ul>
       </Window>
     </Desktop>
