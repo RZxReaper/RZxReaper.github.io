@@ -60,6 +60,7 @@ export default function Home() {
           <li><b>SoilPal</b><small>Python</small><span>Soil health and pollution screening for any coordinate. It pulls soil-map and weather data, scores the soil on a health index, and suggests suitable crops on a dashboard. Built around the red and black soils near Vellore.</span></li>
           <li><b>ProTeam Analytics</b><small>Node.js</small><span>A VALORANT stats tracker for a team. Look up any player by Riot ID and see live match stats through a small backend over a community API.</span></li>
           <li><b>Borb</b><small>Python / TFLite</small><span>A bird detector. It listens to a microphone, identifies the species with a TensorFlow Lite model, and logs each detection to a local web page.</span></li>
+          <li><b><a href="https://github.com/RZxReaper/storage-cleaner" rel="noopener">Storage Cleaner</a></b><small>Python / Tkinter</small><span>A Windows disk-usage viewer and junk cleaner with a Windows 98 look. It scans a drive, shows the biggest folders and files, and clears temp files and the Recycle Bin after a confirmation. One Python file, standard library only.</span></li>
         </ul>
       </Window>
 
