@@ -66,7 +66,7 @@ export default function Home() {
 
       <Window id="contact" title="Contact" size="wide" i={5}>
         <p>Open to AI/ML and cybersecurity roles.</p>
-        <p><a className="btn hot" href="mailto:palaronnya@gmail.com">Email</a> <a className="btn" href={LINKEDIN} rel="noopener">LinkedIn</a></p>
+        <p><a className="btn hot" href="mailto:palaronnya@gmail.com">Email</a> <a className="btn" href={LINKEDIN} rel="noopener">LinkedIn</a> <a className="btn" href="https://github.com/RZxReaper" rel="noopener">GitHub</a></p>
         <ul className="tags"><li>Python</li><li>C++</li><li>Java</li><li>React</li><li>GCP</li><li>BigQuery</li><li>Tableau</li><li>Figma</li></ul>
       </Window>
     </Desktop>
