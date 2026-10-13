@@ -1,0 +1,4 @@
+{
+  "redirects": [{ "source": "/invention.html", "destination": "/invention", "permanent": true }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
