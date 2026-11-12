@@ -62,6 +62,7 @@ export default function Home() {
           <li><b>ProTeam Analytics</b><small>Node.js</small><span>A VALORANT stats tracker for a team. Look up any player by Riot ID and see live match stats through a small backend over a community API.</span></li>
           <li><b>Borb</b><small>Python / TFLite</small><span>A bird detector. It listens to a microphone, identifies the species with a TensorFlow Lite model, and logs each detection to a local web page.</span></li>
           <li><b>Storage Cleaner</b><small>Python / Tkinter</small><span>A Windows disk-usage viewer and junk cleaner with a Windows 98 look. It scans a drive, shows the biggest folders and files, and clears temp files and the Recycle Bin after a confirmation. One Python file, standard library only.</span><a className="repo" href="https://github.com/RZxReaper/storage-cleaner" rel="noopener" aria-label="Storage Cleaner source on GitHub">storage-cleaner.git</a></li>
+          <li><b>Game Tuner</b><small>C# / WinForms</small><span>A gaming tuner for my laptop with the same dark Windows 98 look as this site. It moves games onto the RTX 4050, switches between Max FPS and Cool power profiles, pins games to the P-cores while background apps run on the E-cores, and closes apps before a match. Every change can be undone. One C# file, no dependencies.</span><a className="repo" href="https://github.com/RZxReaper/game-tuner" rel="noopener" aria-label="Game Tuner source on GitHub">game-tuner.git</a></li>
         </ul>
       </Window>
 
